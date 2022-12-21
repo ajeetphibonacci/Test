@@ -1,13 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WebApplicationTest.Models;
 
 namespace WebApplicationTest.Data
 {
-    public class ApplicationDbcontext : DbContext
+    public class ApplicationDbcontext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext> options) : base(options)
+        public ApplicationDbcontext(DbContextOptions options) : base(options)
         {
         }
+
         public DbSet<Employee> Employees { get;set; }
     }
 }

@@ -23,6 +23,13 @@ namespace WebApplicationTest.Controllers
             return await _dbcontext.Employees.ToListAsync();
         }
 
+        [HttpGet("{Id:int}")]
+        public async Task<Employee> GetById(int Id)
+        {
+            var result = await _dbcontext.Employees.FindAsync(Id);
+            return result;
+        }
+
         [HttpPost]
         public async Task<Employee> AddEmployee(Employee employee)
         {
@@ -31,28 +38,27 @@ namespace WebApplicationTest.Controllers
             await _dbcontext.SaveChangesAsync();
             return result.Entity;
         }
-        [HttpGet("{Id:int}")]
-        public async Task<Employee> GetById(int Id)
-        {
-            var result = await _dbcontext.Employees.FindAsync(Id);
-            return result;   
-        }
-        [HttpDelete]
-        public async Task Delete(int Id)
-        {
-            var deleteByid = await _dbcontext.Employees.FindAsync(Id);
-            _dbcontext.Remove(deleteByid);
-            await _dbcontext.SaveChangesAsync();    
-        }
+        
         [HttpPut("{Id:int}")]
         public async Task<Employee> UpdateEmployee(int Id,Employee employee)
         {
             var updatetest=await _dbcontext.Employees.FindAsync(Id);
             updatetest.Email=employee.Email;
             updatetest.Name=employee.Name;
+            updatetest.Phone=employee.Phone;    
+            updatetest.City=employee.City;
+            updatetest.ModifiedTime = employee.ModifiedTime;    
             await _dbcontext.SaveChangesAsync();
 
             return updatetest;
+        }
+
+        [HttpDelete]
+        public async Task Delete(int Id)
+        {
+            var deleteByid = await _dbcontext.Employees.FindAsync(Id);
+            _dbcontext.Remove(deleteByid);
+            await _dbcontext.SaveChangesAsync();
         }
     }
 }

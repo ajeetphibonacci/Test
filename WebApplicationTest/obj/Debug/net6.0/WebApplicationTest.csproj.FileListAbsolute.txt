@@ -64,3 +64,8 @@ D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\refint\WebAppli
 D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\WebApplicationTest.pdb
 D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\WebApplicationTest.genruntimeconfig.cache
 D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\ref\WebApplicationTest.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
