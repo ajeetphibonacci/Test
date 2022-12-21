@@ -6,6 +6,9 @@ D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\WebApplicationT
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\WebApplicationTest.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\WebApplicationTest.pdb
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Humanizer.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -13,6 +16,8 @@ D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Entit
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -64,8 +69,3 @@ D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\refint\WebAppli
 D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\WebApplicationTest.pdb
 D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\WebApplicationTest.genruntimeconfig.cache
 D:\Folder\WebApplicationTest\WebApplicationTest\obj\Debug\net6.0\ref\WebApplicationTest.dll
-D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-D:\Folder\WebApplicationTest\WebApplicationTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
