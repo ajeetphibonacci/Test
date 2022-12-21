@@ -18,14 +18,11 @@ namespace WebApplicationTest.Controllers
             _userManager = userManager;
             _signManager = signManager;
         }
-        [HttpPost]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register(RegisterModel register)
         {
-            var userExits = await _userManager.FindByEmailAsync(register.UserName);
-            if (userExits == null) 
-            {
-                return NotFound();  
-            }
+            var userExits = await _userManager.FindByNameAsync(register.Name);
+           
             ApplicationUser user = new ApplicationUser()
             {
                 UserName = register.UserName,
