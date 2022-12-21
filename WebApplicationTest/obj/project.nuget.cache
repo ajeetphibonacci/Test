@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KIujqETvtZPwfW+VlwH1IVNY9hic1cMv9H4FMe0PmmIVReN5TPLsJCCWGfDJr5kaie5GJCRf4q3PdGfT28OckQ==",
+  "dgSpecHash": "OTENDwUNMkwBC8wQdfaeu99wrW7mzod1LKXguqkJkyFr1Al2z6JMwVCjJZLIE54crBlxIQRAdOMBFYvKK6kMzA==",
   "success": true,
-  "projectFilePath": "D:\\Folder\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+  "projectFilePath": "D:\\Folder\\Test\\WebApplicationTest\\WebApplicationTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phibo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\phibo\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

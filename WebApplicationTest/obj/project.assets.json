@@ -3150,11 +3150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Folder\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+      "projectUniqueName": "D:\\Folder\\Test\\WebApplicationTest\\WebApplicationTest.csproj",
       "projectName": "WebApplicationTest",
-      "projectPath": "D:\\Folder\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+      "projectPath": "D:\\Folder\\Test\\WebApplicationTest\\WebApplicationTest.csproj",
       "packagesPath": "C:\\Users\\phibo\\.nuget\\packages\\",
-      "outputPath": "D:\\Folder\\WebApplicationTest\\WebApplicationTest\\obj\\",
+      "outputPath": "D:\\Folder\\Test\\WebApplicationTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phibo\\AppData\\Roaming\\NuGet\\NuGet.Config",
